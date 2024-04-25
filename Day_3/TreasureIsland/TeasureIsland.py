@@ -79,11 +79,11 @@ elif firstDecision=="Right":
         if thirdDecision == "Blue Door":
             print("The sound of rushing water grows louder as you open the door, revealing a subterranean river. \nHowever, as you step forward, the ground gives way, plunging you into the icy depths. \nThe strong current pulls you under, and there is no escape.")             
         elif thirdDecision == "Yellow Door":
-            print("Opening the yellow door, you are met with a room of intricate puzzles. \nBut as you step inside, the door slams shut behind you. \nThe walls begin to close in, and you realize too late that there is no way out.")     
+            print("Creaking open the yellow door reveals a room filled with intricate puzzles and traps. \nWalls lined with hieroglyphs hint at the solutions. \nYour wit and intelligence shine as you solve each puzzle, one by one, disarming traps and unlocking secrets. \nFinally, a hidden compartment opens, revealing the legendary treasure of Treasure Island—a chest of gold and precious gems beyond imagination.")     
         elif thirdDecision == "Red Door":
             print("The red door opens to a chamber of smoldering coals and bursts of flame. \nYou take a step forward, but the floor collapses, sending you into a pit of fire below. \nThere is no chance of survival.")   
         elif thirdDecision == "Green Door":
-            print("As the green door swings open, you are greeted by a luminous garden. \nIn the center, a tree with glowing leaves holds a golden apple. \nThis is the treasure you’ve been seeking. \nThe garden is alive, but it recognizes the worthiness of your quest and allows you to take the apple, the symbol of your success on Perilous Treasure Island. 🏴‍☠️🗝️")
+            print("The green door opens to reveal a luminous garden, bathed in an ethereal light. \nAs you step forward, the plants come to life, their vines ensnaring you, pulling you into the depths of the garden from which there is no escape.")
             print('''___...------------...____
                _.-"` /o/__ ____ __ __  __ \o\_`"-._
              .'     / /                    \ \     '.
