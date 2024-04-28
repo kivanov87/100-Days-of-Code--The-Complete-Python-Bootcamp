@@ -25,14 +25,14 @@ print("Your mission is to find the treasure.")
 
 print ("You find yourself standing on a golden beach, the wreck of your ship behind you. \nAhead lies a dense jungle with two paths.")
 
-firstDecision =str(input("Which path you choose, Left or Right?\n"))
+firstDecision =str(input("Which path you choose, Left or Right?\n")).lower()
 if firstDecision=="Left":
     print("Left path leads you to the dark caves where you got attacked by bear.")
     print("Fail to overcome the island's challenges and become another lost soul.")
 elif firstDecision=="Right":
     print("Right path takes you deeper into the jungle.")
     print("After surviving the treacherous paths of the jungle entrance, you find yourself at a crossroads. \nThe jungle canopy thickens above, and the air grows heavy with the scent of earth and mystery. \nTwo distinct paths lie before you, each promising its own dangers and rewards. ")
-    secondDecision =str(input("Which path you choose, Climb or Forge ahead\n?"))
+    secondDecision =str(input("Which path you choose, Climb or Forge ahead\n?")).lower()
     if secondDecision == "Climb":
         print('''            .        +          .      .          .
      .            _        .                    .
@@ -71,7 +71,6 @@ elif firstDecision=="Right":
            /=/_/''')
         print("With the temple’s location now clear, you carefully descend the tree, your resolve strengthened. \nThe journey through the jungle is treacherous, but the sight of the temple guides you forward. \nYou dodge venomous snakes, avoid hidden pits, and push through thick vines.") 
         print("Finally, as twilight descends, you stand before the temple. \nIts massive doors are adorned with carvings of fearsome deities and tales of lost adventurers. \nThe air is heavy with the scent of moss and ancient secrets. \nYou step into the shadow of the temple, where four doors await, each a gateway to untold peril and promise.")        
-        thirdDecision =str(input("Which path you choose, Climb or Forge ahead\n?"))
         print("As you emerge from the dense jungle, the ancient temple looms before you, its stones weathered by time and the relentless growth of the jungle. \nThe air is still, as if the very island is holding its breath, awaiting your next move. \nThe temple’s entrance is flanked by statues of forgotten gods, their eyes seeming to follow your every step.")
         print("Ahead, the corridor splits into four, each leading to a door of a different hue. \nThe Blue Door, with its promise of water’s secrets; the Yellow Door, hiding cunning mechanical traps; the Red Door, with the heat of fire’s embrace; and the Green Door, radiating a strange and inviting light.")
         print("Your heart beats faster as you realize the treasure is near, but so too is the danger. The choices you’ve made have led you to this moment, and now, one final decision remains. \nWith a deep breath, you choose a door, your hand resting on the ancient wood, ready to push it open and face the destiny that awaits you on Perilous Treasure Island. 🏴‍☠️🗝️")
